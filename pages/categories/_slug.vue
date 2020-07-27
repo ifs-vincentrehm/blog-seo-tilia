@@ -29,7 +29,7 @@ export default {
   },
   data() {
     return {
-      title: 'Blog Colivme - Catégorie',
+      title: 'Blog Tilia - Catégorie',
       description: 'Détails de la catégorie'
     }
   },

@@ -24,7 +24,7 @@ export default {
   },
   data() {
     return {
-      title: 'Blog Colivme - Article',
+      title: 'Blog Tilia - Article',
       description: "Détails de l'article"
     }
   },

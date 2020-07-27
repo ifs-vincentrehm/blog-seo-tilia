@@ -1,6 +1,6 @@
-# colivme-blog-seo
+# tilia-blog-seo
 
-> Colivme blog
+> Tilia blog
 
 ## Build Setup
 

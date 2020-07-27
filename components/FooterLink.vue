@@ -18,7 +18,7 @@ export default {
     }
   },
   created() {
-    const url = 'https://colivme.com/coliving/' + this.referenceCity.countryUrlKey + '/' + this.referenceCity.nameUrlKey
+    const url = 'https://tilia.com/coliving/' + this.referenceCity.countryUrlKey + '/' + this.referenceCity.nameUrlKey
     this.url = url
   }
 }

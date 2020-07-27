@@ -21,8 +21,8 @@ export default {
   },
   data() {
     return {
-      title: 'Blog Colivme',
-      description: 'Colivme est la 1ère plateforme de référencement des espaces de coliving en France.'
+      title: 'Blog Tilia',
+      description: 'Tilia est la 1ère plateforme de référencement des espaces de coliving en France.'
     }
   },
   head() {

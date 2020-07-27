@@ -104,13 +104,13 @@ export default {
         // Doc: https://github.com/AlekseyPleshkov/nuxt-social-meta
         ['nuxt-social-meta',
             {
-                url: "https://colivme.netlify.app/",
-                title: "Blog Colivme",
-                site_name: "Blog Colivme",
-                description: "Colivme est la 1ère plateforme de référencement des espaces de coliving en France.",
+                url: "https://tilia.netlify.app/",
+                title: "Blog Tilia",
+                site_name: "Blog Tilia",
+                description: "Tilia est la 1ère plateforme de référencement des espaces de coliving en France.",
                 img: "/image-social-networks.jpg",
                 locale: "fr_FR",
-                twitter: "@colivme",
+                twitter: "@tilia",
                 twitter_card: "summary_large_image",
                 themeColor: "#223C4B",
             }
@@ -128,11 +128,11 @@ export default {
     robots: {
         UserAgent: '*',
         Allow: '/',
-        Host: 'https://colivme.netlify.app/',
-        Sitemap: 'https://colivme.netlify.app/sitemap.xml'
+        Host: 'https://tilia.netlify.app/',
+        Sitemap: 'https://tilia.netlify.app/sitemap.xml'
     },
     sitemap: {
-        hostname: 'https://colivme.netlify.app/'
+        hostname: 'https://tilia.netlify.app/'
     },
     cookies: {
         necessary: [{

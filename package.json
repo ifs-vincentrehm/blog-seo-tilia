@@ -1,7 +1,7 @@
 {
-    "name": "colivme-blog-seo",
+    "name": "tilia-blog-seo",
     "version": "1.0.0",
-    "description": "Blog Colivme, la 1ère plateforme de référencement des espaces de coliving en France.",
+    "description": "Blog Tilia, la 1ère plateforme de référencement des espaces de coliving en France.",
     "author": "Vincent REHM",
     "private": true,
     "scripts": {

@@ -20,9 +20,9 @@
 
         <!-- Navbar links -->
         <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-end">
-          <!-- Colivme logo -->
+          <!-- Tilia logo -->
           <nuxt-link to="/" class="flex-shrink-0 flex flex-none lg:flex-1 items-center">
-            <img class="h-12 w-auto lazyload" :data-src="require('~/assets/img/logos/logo-colivme-web.svg')" alt="Colivme logo" />
+            <img class="h-12 w-auto lazyload" :data-src="require('~/assets/img/logos/logo-colivme-web.svg')" alt="Tilia logo" />
           </nuxt-link>
 
           <div class="hidden sm:ml-6 sm:flex">
@@ -59,7 +59,7 @@
 <script>
 export default {
   data: () => ({
-    links: ['Blog', { name: 'Nos logements', url: 'https://colivme.com/coliving/france' }, { name: 'Le coliving ?', url: 'https://colivme.com/qu-est-ce-que-le-coliving' }],
+    links: ['Blog', { name: 'Nos logements', url: 'https://tilia.com/coliving/france' }, { name: 'Le coliving ?', url: 'https://tilia.com/qu-est-ce-que-le-coliving' }],
     isOpen: false
   }),
   computed: {
