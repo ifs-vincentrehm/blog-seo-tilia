@@ -2,11 +2,11 @@
   <div class="my-8">
     <div class="relative w-full mb-4">
       <img :src="article.image.url" :alt="article.title" class="lazyload" />
-      <div class="absolute bottom-0 left-0 bg-opacity-50 bg-blue-800 pt-2 pb-1">
+      <!-- <div class="absolute bottom-0 left-0 bg-opacity-50 bg-blue-800 pt-2 pb-1">
         <span class="text-white mx-4 capitalize">
           {{ article.image.name }}
         </span>
-      </div>
+      </div> -->
     </div>
 
     <section id="article-content" class="divide-y divide-gray-400 mx-2">
@@ -27,6 +27,10 @@
               <h3 class="text-xl leading-7 font-semibold text-gray-900">
                 {{ article.title }}
               </h3>
+              <br />
+              <h2 class="text-lg leading-7 font-semibold text-gray-900">
+                {{ article.subtitle }}
+              </h2>
             </nuxt-link>
           </div>
 
@@ -54,7 +58,7 @@
           </div>
         </div>
       </div>
-      <div id="article-content" class="whitespace-pre-line text-gray-700 text-base break-normal py-4 lazyload" v-html="$md.render(article.content)"></div>
+      <div id="article-content" class="prose max-w-none whitespace-pre-line text-gray-700 text-base break-normal py-4 lazyload" v-html="article.content"></div>
     </section>
 
     <!-- <div class="flex justify-center items-end my-4">
@@ -87,7 +91,7 @@ export default {
 </script>
 
 <style>
-#article-content > ul {
+/* #article-content > ul {
   @apply list-disc list-outside;
 }
 
@@ -105,5 +109,5 @@ export default {
 
 #article-content > p > a {
   @apply shadow-sm inline-flex items-center justify-center px-6 py-3 border border-transparent text-lg leading-6 font-medium w-auto rounded-full text-white bg-blue-900 transition ease-in-out duration-150;
-}
+} */
 </style>
