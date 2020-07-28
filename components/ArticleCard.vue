@@ -11,7 +11,7 @@
         <p class="text-sm leading-5 font-medium text-indigo-600">
           <nuxt-link v-for="category in article.categories" :key="category.id" :to="'/categories/' + category.slug">
             <span class="mr-2 inline-flex items-center px-4 py-2 text-sm font-medium leading-5 bg-green-500 text-white">
-              {{ category.name }}
+              {{ category.title }}
             </span>
           </nuxt-link>
         </p>
