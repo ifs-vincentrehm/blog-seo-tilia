@@ -34,7 +34,7 @@ export default {
     }
   },
   created() {
-    const name = this.category.name
+    const name = this.category.title
     this.title = this.title + ' ' + name
     this.description = this.description + ' ' + name
   },

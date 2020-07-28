@@ -16,8 +16,8 @@
             <!-- Article categories -->
             <p class="flex justify-end text-sm leading-5 font-medium text-indigo-600">
               <nuxt-link v-for="category in article.categories" :key="category.id" :to="'/categories/' + category.slug">
-                <span class="mr-2 inline-flex items-center px-4 py-2 text-sm font-medium leading-5 bg-green-500 text-white">
-                  {{ category.name }}
+                <span class="mr-2 mb-2 inline-flex items-center px-4 py-2 text-sm font-medium leading-5 bg-green-500 text-white">
+                  {{ category.title }}
                 </span>
               </nuxt-link>
             </p>
@@ -59,7 +59,7 @@
 
     <!-- <div class="flex justify-center items-end my-4">
       <span v-for="category in article.categories" :key="category.id" class="inline-block bg-gray-200 rounded-full text-sm font-semibold text-gray-700 m-1 py-1 px-2">
-        <article-category-pill :name="category.name" :slug="category.slug" />
+        <article-category-pill :name="category.title" :slug="category.slug" />
       </span>
     </div> -->
   </div>
